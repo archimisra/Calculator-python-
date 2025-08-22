@@ -8,4 +8,11 @@ if operator == "+":
     print(first + second)
 elif operator == "-":
     print(first - second)
-elif ope
+elif operator == "-":
+   print(first - second)
+elif operator == "%":
+   print(first % second)
+elif operator == "*":
+   print(first * second)
+else:
+    print("Invalid Operator")
